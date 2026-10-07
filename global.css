@@ -1,0 +1,67 @@
+.box {
+    min-width: 120px;
+    min-height: 24px;
+    max-width: 120px;
+    max-height: 24px;
+    border: 2px solid transparent;
+    background-color: #d3d3d3;
+    border-radius: 4px;
+    margin: 4px;
+    align-content: center;
+    text-align: center;
+}
+
+#Card-1:hover {
+    color: blue;
+}
+
+#Card-2:hover {
+    background-color: red;
+}
+
+#Card-3:hover {
+    background-color: aqua;
+    transition: 0.4s ease-in-out;
+}
+
+#Card-4:hover {
+    border-color: black;
+    color: white;
+    background-color: aqua;
+    transition: 0.4s ease-in-out;
+}
+
+#Card-5:hover, #Card-5:focus{
+    box-shadow: inset 8em 0 0 0 black;
+    color: white;
+}
+
+#Card-6:hover {
+    background-color: blueviolet;
+    font-size: 30px;
+    color: white;
+}
+
+#Card-7:hover {
+    border: 5px solid red;
+    transition: 1s ease-in-out;
+    color: red;
+}
+
+#Card-8:hover {
+    box-shadow: inset 8em 0 0 0 yellow;
+    color: green;
+}
+
+#Card-9:hover {
+    color: purple;
+    background-color: pink;
+    border: 2px solid purple;
+    transition: 1s ease-in-out;
+}
+
+#Card-10:hover {
+    color: aquamarine;
+    background-color: blue;
+    transition: 0.4s ease-in-out;
+}
